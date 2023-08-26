@@ -2,6 +2,6 @@ import { Module } from '@nestjs/common';
 import { FiltroDeCompraController } from './filtro-de-compra.controller';
 
 @Module({
-  controllers: [FiltroDeCompraController]
+  controllers: [FiltroDeCompraController],
 })
 export class FiltroDeCompraModule {}
